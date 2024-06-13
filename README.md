@@ -8,4 +8,4 @@ Smartbuy is a full stack online shop (without real payment) where you can view, 
 
 ## Design
 
-https://ibb.co/pnY67zg
+![alt text]([http://url/to/img.png](https://ibb.co/pnY67zg))
