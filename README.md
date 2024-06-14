@@ -8,7 +8,7 @@ Smartbuy is a full stack online shop (without real payment) where you can view, 
 
 ## Test Daten
 
-**E-Mail: mustermann@email.de**
+**E-Mail: mustermann@email.de**<br />
 **Passwort: testkonto**
 
 ## Design
