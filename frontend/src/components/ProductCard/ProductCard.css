@@ -1,0 +1,125 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 3vh;
+  margin-bottom: 11vh;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 0.5rem;
+  width: 175px;
+  background-color: var(--bg);
+}
+
+.product-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+}
+
+.product-img img {
+  max-height: 110px;
+  margin: 40px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.rating-star {
+  font-size: 0.9rem;
+  color: #ffcc00;
+}
+
+.item-rating {
+  font-size: 1rem;
+  text-align: center;
+  color: #828b9a;
+  font-weight: 600;
+}
+
+.product-name {
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.item-price {
+  color: var(--main);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.fa-circle-plus {
+  color: var(--main);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1279px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 3vh;
+    margin-bottom: 11vh;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0.5rem;
+    width: 210px;
+    background-color: var(--bg);
+  }
+  .rating-star {
+    font-size: 1.2rem;
+    color: #ffcc00;
+  }
+  .item-rating {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #828b9a;
+    font-weight: 600;
+  }
+  .product-name {
+    flex-grow: 1;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .item-price {
+    color: var(--main);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .fa-circle-plus {
+    color: var(--main);
+    font-size: 1.5rem;
+  }
+  .product-img img {
+    height: 130px;
+    margin: 40px;
+  }
+}

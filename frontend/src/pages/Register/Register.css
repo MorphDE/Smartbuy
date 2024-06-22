@@ -1,0 +1,43 @@
+.register-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+.register-title {
+  font-size: 1.5rem;
+  margin-bottom: 6vh;
+}
+
+.registerform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.registerform button {
+  margin-top: 1vh;
+}
+
+.lostpw {
+  margin-top: 6vh;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1279px) {
+  .register-title {
+    font-size: 1.5rem;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+  }
+}

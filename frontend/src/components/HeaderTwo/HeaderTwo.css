@@ -1,0 +1,13 @@
+.top-header {
+  position: relative;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.top-header-img {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+}

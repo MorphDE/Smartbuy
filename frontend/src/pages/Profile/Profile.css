@@ -1,0 +1,41 @@
+.profile-containers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5vh;
+  margin-top: 25px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+  width: 75vw;
+  border-radius: 0.5rem;
+}
+
+.user-info {
+  text-align: left;
+  margin: 1rem;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.fa-pen-to-square {
+  font-size: 1.2rem;
+  color: var(--main);
+  margin-right: 1rem;
+}
+
+.profile-hint {
+  margin: 20px;
+  text-align: center;
+  color: #5c6574;
+  margin-bottom: 2vh;
+}
